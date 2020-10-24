@@ -1,0 +1,59 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/index_style.css">
+
+</head>
+
+<body>
+
+  <div class= "Container py-3">
+
+    <div class="form-group">
+      <label>productName :</label>
+      <input id="productName" class="form-control">
+      <small class="text-muted"> must be 8-20 character </small>
+
+    </div>
+
+    <div class="form-group">
+      <label>productprice :</label>
+      <input id="productprice" class="form-control">
+      <small class="text-muted"> must be 8-20 character </small>
+
+    </div>
+
+    <div class="form-group">
+      <label>productcategory :</label>
+      <input id="productcategory" class="form-control">
+      <small class="text-muted"> must be 8-20 character </small>
+
+    </div>
+
+    <div class="form-group">
+      <label>productDesc :</label>
+      <textarea id="productDesc" class="form-control"></textarea>
+      <small class="text-muted"> must be 8-20 character </small>
+
+    </div>
+
+    <button onclick="Addproduct()" class="btn btn-outline-info">Add product</button>
+
+
+  </div>
+
+  <div class="Container-fluid">
+
+    <h2 class="text-center">Our Products</h2>
+
+    <div class="row" id="productsRow">
+
+   </div>
+  </div>
+
+  <script src="js/first.js"></script>
+</body>
+
+</html> 
